@@ -48,6 +48,9 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.tank = new System.Windows.Forms.Button();
             this.fahren = new System.Windows.Forms.Button();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -174,7 +177,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(146, 306);
+            this.label9.Location = new System.Drawing.Point(146, 324);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(43, 13);
             this.label9.TabIndex = 14;
@@ -183,7 +186,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(262, 337);
+            this.label10.Location = new System.Drawing.Point(262, 354);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(21, 13);
             this.label10.TabIndex = 15;
@@ -191,7 +194,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(149, 334);
+            this.textBox1.Location = new System.Drawing.Point(145, 351);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 16;
@@ -214,18 +217,44 @@
             // 
             // fahren
             // 
-            this.fahren.Location = new System.Drawing.Point(328, 337);
+            this.fahren.Location = new System.Drawing.Point(328, 349);
             this.fahren.Name = "fahren";
             this.fahren.Size = new System.Drawing.Size(75, 23);
             this.fahren.TabIndex = 21;
-            this.fahren.Text = "button2";
+            this.fahren.Text = "Fahren";
             this.fahren.UseVisualStyleBackColor = true;
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(149, 280);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(250, 23);
+            this.progressBar1.TabIndex = 22;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(557, 280);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(200, 20);
+            this.textBox2.TabIndex = 23;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(554, 231);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(74, 13);
+            this.label11.TabIndex = 24;
+            this.label11.Text = "Informationen:";
             // 
             // tanken
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(875, 602);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.fahren);
             this.Controls.Add(this.tank);
             this.Controls.Add(this.textBox4);
@@ -276,6 +305,9 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button tank;
         private System.Windows.Forms.Button fahren;
+        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label11;
     }
 }
 

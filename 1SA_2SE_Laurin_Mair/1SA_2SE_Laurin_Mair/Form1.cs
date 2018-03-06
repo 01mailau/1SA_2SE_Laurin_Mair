@@ -24,7 +24,7 @@ namespace _1SA_2SE_Laurin_Mair
 
         private void marke_TextChanged(object sender, EventArgs e)
         {
-            marke_TextChanged.Text  
+            marke.Text = 0;
         }
 
         private void farbe_TextChanged(object sender, EventArgs e)
