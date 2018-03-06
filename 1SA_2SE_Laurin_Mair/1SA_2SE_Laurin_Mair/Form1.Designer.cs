@@ -1,6 +1,6 @@
 ﻿namespace _1SA_2SE_Laurin_Mair
 {
-    partial class Form1
+    partial class tanken
     {
         /// <summary>
         /// Erforderliche Designervariable.
@@ -34,12 +34,20 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.marke = new System.Windows.Forms.TextBox();
+            this.farbe = new System.Windows.Forms.TextBox();
+            this.ps = new System.Windows.Forms.TextBox();
+            this.Tankgröse = new System.Windows.Forms.TextBox();
+            this.verbrauch = new System.Windows.Forms.TextBox();
+            this.autoerstellen = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.tank = new System.Windows.Forms.Button();
+            this.fahren = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -96,68 +104,150 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Neues Auto erstellen:";
             // 
+            // marke
+            // 
+            this.marke.Location = new System.Drawing.Point(183, 44);
+            this.marke.Name = "marke";
+            this.marke.Size = new System.Drawing.Size(100, 20);
+            this.marke.TabIndex = 6;
+            this.marke.TextChanged += new System.EventHandler(this.marke_TextChanged);
+            // 
+            // farbe
+            // 
+            this.farbe.Location = new System.Drawing.Point(183, 78);
+            this.farbe.Name = "farbe";
+            this.farbe.Size = new System.Drawing.Size(100, 20);
+            this.farbe.TabIndex = 7;
+            this.farbe.TextChanged += new System.EventHandler(this.farbe_TextChanged);
+            // 
+            // ps
+            // 
+            this.ps.Location = new System.Drawing.Point(183, 109);
+            this.ps.Name = "ps";
+            this.ps.Size = new System.Drawing.Size(100, 20);
+            this.ps.TabIndex = 8;
+            this.ps.TextChanged += new System.EventHandler(this.ps_TextChanged);
+            // 
+            // Tankgröse
+            // 
+            this.Tankgröse.Location = new System.Drawing.Point(393, 40);
+            this.Tankgröse.Name = "Tankgröse";
+            this.Tankgröse.Size = new System.Drawing.Size(100, 20);
+            this.Tankgröse.TabIndex = 9;
+            this.Tankgröse.TextChanged += new System.EventHandler(this.Tankgröse_TextChanged);
+            // 
+            // verbrauch
+            // 
+            this.verbrauch.Location = new System.Drawing.Point(393, 81);
+            this.verbrauch.Name = "verbrauch";
+            this.verbrauch.Size = new System.Drawing.Size(100, 20);
+            this.verbrauch.TabIndex = 10;
+            this.verbrauch.TextChanged += new System.EventHandler(this.verbrauch_TextChanged);
+            // 
+            // autoerstellen
+            // 
+            this.autoerstellen.Location = new System.Drawing.Point(393, 129);
+            this.autoerstellen.Name = "autoerstellen";
+            this.autoerstellen.Size = new System.Drawing.Size(100, 23);
+            this.autoerstellen.TabIndex = 11;
+            this.autoerstellen.Text = "Auto erstellen";
+            this.autoerstellen.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(142, 221);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(47, 13);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "Tanken:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(256, 256);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(27, 13);
+            this.label8.TabIndex = 13;
+            this.label8.Text = "Liter";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(146, 306);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(43, 13);
+            this.label9.TabIndex = 14;
+            this.label9.Text = "Fahren:";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(262, 337);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(21, 13);
+            this.label10.TabIndex = 15;
+            this.label10.Text = "km";
+            // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(183, 44);
+            this.textBox1.Location = new System.Drawing.Point(149, 334);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 6;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(183, 78);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 7;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(183, 109);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 8;
+            this.textBox1.TabIndex = 16;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(393, 40);
+            this.textBox4.Location = new System.Drawing.Point(145, 249);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 9;
+            this.textBox4.TabIndex = 19;
             // 
-            // textBox5
+            // tank
             // 
-            this.textBox5.Location = new System.Drawing.Point(393, 81);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 10;
+            this.tank.Location = new System.Drawing.Point(328, 249);
+            this.tank.Name = "tank";
+            this.tank.Size = new System.Drawing.Size(75, 23);
+            this.tank.TabIndex = 20;
+            this.tank.Text = "Tanken";
+            this.tank.UseVisualStyleBackColor = true;
             // 
-            // textBox6
+            // fahren
             // 
-            this.textBox6.Location = new System.Drawing.Point(496, 188);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 11;
+            this.fahren.Location = new System.Drawing.Point(328, 337);
+            this.fahren.Name = "fahren";
+            this.fahren.Size = new System.Drawing.Size(75, 23);
+            this.fahren.TabIndex = 21;
+            this.fahren.Text = "button2";
+            this.fahren.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // tanken
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(875, 262);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
+            this.ClientSize = new System.Drawing.Size(875, 602);
+            this.Controls.Add(this.fahren);
+            this.Controls.Add(this.tank);
             this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.autoerstellen);
+            this.Controls.Add(this.verbrauch);
+            this.Controls.Add(this.Tankgröse);
+            this.Controls.Add(this.ps);
+            this.Controls.Add(this.farbe);
+            this.Controls.Add(this.marke);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "tanken";
+            this.Text = "Simulator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -172,12 +262,20 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox marke;
+        private System.Windows.Forms.TextBox farbe;
+        private System.Windows.Forms.TextBox ps;
+        private System.Windows.Forms.TextBox Tankgröse;
+        private System.Windows.Forms.TextBox verbrauch;
+        private System.Windows.Forms.Button autoerstellen;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Button tank;
+        private System.Windows.Forms.Button fahren;
     }
 }
 

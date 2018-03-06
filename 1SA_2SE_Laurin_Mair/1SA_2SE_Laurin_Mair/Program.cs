@@ -15,7 +15,7 @@ namespace _1SA_2SE_Laurin_Mair
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new tanken());
         }
     }
 }
