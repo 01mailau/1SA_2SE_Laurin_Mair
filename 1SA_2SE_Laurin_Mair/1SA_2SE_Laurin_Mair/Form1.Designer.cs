@@ -155,6 +155,7 @@
             this.autoerstellen.TabIndex = 11;
             this.autoerstellen.Text = "Auto erstellen";
             this.autoerstellen.UseVisualStyleBackColor = true;
+            this.autoerstellen.Click += new System.EventHandler(this.autoerstellen_Click);
             // 
             // label7
             // 
@@ -237,6 +238,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(200, 20);
             this.textBox2.TabIndex = 23;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label11
             // 
@@ -277,7 +279,6 @@
             this.Controls.Add(this.label1);
             this.Name = "tanken";
             this.Text = "Simulator";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -11,40 +11,47 @@ namespace _1SA_2SE_Laurin_Mair
 {
     public partial class tanken : Form
     {
+
         public tanken()
         {
             InitializeComponent();
         }
 
-      
-        private void Form1_Load(object sender, EventArgs e)
+        private void autoerstellen_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void marke_TextChanged(object sender, EventArgs e)
         {
-            marke.Text = 0;
+            autoerstellen.Text = "0";
         }
 
         private void farbe_TextChanged(object sender, EventArgs e)
         {
-
+            farbe.Text = "0";
         }
 
         private void ps_TextChanged(object sender, EventArgs e)
         {
-
+            ps.Text = "0";
         }
 
         private void Tankgröse_TextChanged(object sender, EventArgs e)
         {
-
+           Tankgröse.Text = "0";
         }
 
         private void verbrauch_TextChanged(object sender, EventArgs e)
         {
+            verbrauch.Text = "0";
 
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            textBox2.Text = verbrauch.Text;
+        }
+       
+      
         }
     }
-}
+
